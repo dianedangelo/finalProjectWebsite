@@ -1,0 +1,315 @@
+body{
+	margin:0px;
+}
+
+header{
+	position:fixed;
+	top:0;
+	width:100%;
+	height:130px;
+	padding:0px;
+	margin:0px;
+	background-color:#B3B6B7;
+	margin:0px;
+}
+
+p, h1, h2{
+	font-family:arial, sans-serif;
+	font-weight:normal;
+	color:#626567;
+}
+
+h1{
+	color:#0D1596;
+	margin:0px;
+	position:absolute;
+	top:6px;
+	left:55px;
+	font-size:38pt;
+	font-weight:bold;
+	opacity:.9;
+}
+
+p{
+	font-weight:lighter;
+	font-size:10pt;
+	line-height:20px;
+}
+
+nav{
+	position:absolute;
+	top:17px;
+	left:560px;
+	line-height:12pt;
+	color:#C70039;
+}
+
+@media (max-width: 820px){
+	nav {top:130px;}
+	nav {left:82px;}
+	nav {font-size:12px;}
+	nav {background-color:white;}
+	nav {width:100%;}
+	nav {height:140px;}
+	nav {padding-top:15px;}
+}
+
+
+nav ul{
+	list-style:none;
+	margin:0px;
+	color:#C70039;
+}
+
+
+nav li {
+	color:#C70039;
+	margin-left:20px;
+}
+
+nav li a {
+	font-family:"Helvetica", sans-serif;
+	font-weight:normal;
+	font-size:14pt;
+	text-decoration:none;
+	color:#C70039;
+}
+
+a:hover{
+	color:#CD6155;
+	cursor:pointer;
+}
+
+nav li a:visited{
+	color:#641E16;
+	cursor:pointer;
+}
+
+
+.name{
+	font-family:"Helvetica", sans-serif;
+	font-weight:normal;
+	font-size:40pt;
+	position: absolute;
+	left:100px;
+	padding-top:85px;
+	padding-bottom:0px;
+	box-sizing: border-box;
+	color:#C70039;
+}
+@media (max-width: 569px){
+	.name {font-size:28pt;}
+	.name {padding-top:98px;}
+}
+
+@media (max-width: 431px){
+	.name {font-size:24pt;}
+	.name {padding-top:103px;}
+}
+
+.myPic{
+	border:1px solid #C70039;
+	margin-left:100px;
+	clear:left;
+	position:relative;
+	margin-top:195px;
+	float:left;
+	z-index:-8;
+}
+
+@media (max-width: 780px){
+	.myPic {margin-top:300px;}
+}
+
+.gallery{
+	width:90%;
+	height:210px;
+	clear:left;
+	margin-top:30px;
+	margin-left:92px;
+	text-align:center;
+	z-index:-9;
+}
+
+
+@media (max-width: 820px){
+	.gallery {margin-top:50px;}
+}
+
+.galleryImages{
+	margin-bottom:3px;
+	border:1px solid darkgray;
+	width:200px;
+	height:200px;
+	float:left;
+	background-repeat: no-repeat;
+	background-size:cover;
+	background-size: 100%;
+}
+
+.picHolder{
+	width:200px;
+	height:202px;
+	background-color: lightgray;
+	float:left;
+	margin-right:40px;
+  	margin-bottom:40px;
+	/*margin:10px;*/
+}
+
+
+.picHolderBlurb{
+	width:536px;
+	height:200px;
+	display:none;
+	text-align: left;
+	/*margin-left:5px;*/
+}
+
+.blurb{
+	padding-left:210px;
+	margin:10px;
+	font-size:10pt;
+	line-height: 12pt;
+	font-size: 9pt;
+}
+
+.mainWork {
+	width:200px;
+	height:200px;
+	background-color: red;
+}
+
+
+@media (max-width: 340px){
+	.galleryImages {margin-top:50px;}
+	.gallleryImages {width:400px;}
+	.gelleryImages {height:400px;}
+	.galleryImages {left:0px;}
+}
+
+.copy{
+	width:400px;
+	position:relative;
+	top:180px;
+	float:left;
+	margin-top:15px;
+	margin-left:20px;
+	display:inline-block;
+	z-index:-10;
+	text-align:left;
+	border:1px dotted red;
+}
+
+
+@media (max-width: 780px){
+	.copy {clear:left;}
+	.copy {width:350px;}
+	.copy {top:30px;}
+	.copy {margin-left:100px;}
+}
+
+.gallPage{
+	width:850px;
+	margin-top:185px;
+	margin-left:103px;
+}
+
+@media (max-width: 960px){
+	.gallPage {width:760px;}
+}
+
+@media (max-width: 820px){
+	.gallPage {margin-top:290px;}
+	.gallPage {width:660px;}
+}
+
+@media (max-width: 779px){
+	.gallPage {margin-top:290px;}
+	.gallPage {width:445px;}
+}
+
+@media (max-width: 560px){
+	.gallPage {margin-top:290px;}
+	.gallPage {width:280px;}
+}
+
+.sign1{
+	z-index:10;
+}
+/*////////////////////////////////*/
+.titles{
+	height:60px;
+	font-weight: bolder;
+	font-size: 12pt;
+	padding-top:15px;
+	color:black;
+}
+
+.picHolderWork{
+  width: 202px;
+  height: 230px;
+  float:left;
+  margin-right:40px;
+  margin-bottom:40px;
+  background-color: white;
+}
+
+.picHolderWork:hover{
+  width: 202px;
+  height: 330px;
+  background-color: lightgray;
+}
+.picHolderWork{
+  transition: 1s height, 1.5s background-color;
+}
+
+.descriptions{
+	font-size: 10pt;
+	font-weight: normal;
+	padding-top:18px;
+	margin:5px;
+	float:left;
+	color:black;
+	opacity:0;
+}
+
+.descriptions:hover{
+	opacity:1;
+}
+
+.descriptions{
+	transition: 2s color, 2s opacity;
+}
+
+/*//////////////////////////////////////////*/
+
+
+
+
+/*
+@keyframes descriptions {
+    0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
+}
+
+div.descriptions {
+    background-color: red;
+    -webkit-animation-name: desciptions;*/ /* Safari 4.0 - 8.0 */
+    /*-webkit-animation-duration: 4s;*/ /* Safari 4.0 - 8.0 */
+/*    animation-name: descriptions;
+    animation-duration: 4s;
+}*/
+
+
+
+
+
+
+
+
+
+
+
